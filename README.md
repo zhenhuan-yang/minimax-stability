@@ -2,7 +2,7 @@
 
 ### GAN Struction
 We consider the vanilla GAN structure in Goodfellow et al. (2014).
-The reason we choose vanilla GAN it is because it does not have batch normalization or dropout.
+We do not use the Dropout layer in the discriminator in order to maintain the original parameters for comparison.
 
 ### Loss Function
 We use the Binary Cross Entropy (BCE), which corresponds to the modified GAN loss in Goodfellow et al. (2014).
@@ -28,3 +28,9 @@ We compute the Euclidean distance, i.e. Frobenius norm, between the parameters t
 ### Difference vs GAN training
 - Finite sample for random noise
 - Synchronous noise for updating D and G
+
+### Future Work
+- Different datasets e.g. `cifar10`, `TFD`
+- Convolutional GAN structure e.g. DCGAN
+- Different loss functions e.g. LSGAN, WGAN
+- Infinite noise sampling, a tailored stability definition for GAN?
