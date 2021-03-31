@@ -29,6 +29,10 @@ We compute the Euclidean distance, i.e. Frobenius norm, between the parameters t
 
 ![mnist_cpu](res/mnist_cpu.png)
 
+### Explanation
+- In generator, the layers more close to the front have smaller distances because there are less parameters. The discriminator is the other way around.
+- The distance grows with the number of passes, which is consistent with our Theorem 5 and Theorem 6.
+
 ### Difference vs GAN training
 - Finite sample for random noise
 - Synchronous noise for updating D and G
