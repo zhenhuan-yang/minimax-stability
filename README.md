@@ -25,6 +25,10 @@ We compute the Euclidean distance, i.e. Frobenius norm, between the parameters t
 - Different noises only when examples are different
 - Different seeds 
 
+### Results
+
+![mnist_cpu](res/mnist_cpu.png)
+
 ### Difference vs GAN training
 - Finite sample for random noise
 - Synchronous noise for updating D and G
