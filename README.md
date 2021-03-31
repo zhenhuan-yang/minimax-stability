@@ -27,7 +27,7 @@ We compute the Euclidean distance, i.e. Frobenius norm, between the parameters t
 
 ### Results
 
-![mnist_cpu](res/mnist_cpu.png)
+![mnist_cpu](res/mnist_cuda.png)
 
 ### Explanation
 - In generator, the layers more close to the front have smaller distances because there are less parameters. The discriminator is the other way around.
