@@ -1,6 +1,5 @@
 # Vanilla GAN structure for MNIST generation
 
-import torch
 import torch.nn as nn
 
 class VanillaGenerator(nn.Module):

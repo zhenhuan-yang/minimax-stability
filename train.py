@@ -64,13 +64,15 @@ def train_agda(dataset,g_cpu,options):
     dis_param = []
     losses_g = []
     losses_d = []
+
     for epoch in range(num_epochs):
-        # Initialize something for this epoch
+        # Initialize parameter saving for this epoch
         loss_g = 0.0
         loss_d = 0.0
         epoch_gen_param = []
         epoch_dis_param = []
 
+        # batch training
         for i, (images, _, noises) in tqdm(enumerate(train_loader), total=int(len(dataset)/batch_size)): # we don't need the label for imgs
             b_size = images.size()[0]
             images = images.to(device)
@@ -100,7 +102,6 @@ def train_agda(dataset,g_cpu,options):
         gen_param.append(epoch_gen_param)
         dis_param.append(epoch_dis_param)
 
-        print(f"Epoch {epoch} of {num_epochs}")
-        print(f"Generator loss: {epoch_loss_g:.8f}, Discriminator loss: {epoch_loss_d:.8f}")
+        print(f"Epoch {epoch+1} of {num_epochs}, Generator loss: {epoch_loss_g:.8f}, Discriminator loss: {epoch_loss_d:.8f}")
 
     return gen_param, dis_param
