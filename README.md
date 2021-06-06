@@ -1,4 +1,8 @@
-## Stability of GAN
+## Stability and Generalization of Stochastic Gradient Methods for Minimax Problems
+
+Welcome to the repository of minimax-stability! This repository is only for reproducing all experimental results shown in our paper:
+
+*Stability and Generalization of Stochastic Gradient Methods for Minimax Problems*. Yunwen Lei\*, Zhenhuan Yang\*, Tianbao Yang, Yiming Ying.
 
 ### GAN Struction
 We consider the vanilla GAN structure in Goodfellow et al. (2014).
