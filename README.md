@@ -32,9 +32,13 @@ If you find this repository useful, please cite our work
 We compute the Euclidean distance, i.e. Frobenius norm, between the parameters trained on the neighborhood datasets.
 
 
-### Results
+### Stability of SOLAM on AUC maximization
 
-![mnist_cpu](res/mnist_cuda.png)
+![auc](auc/res/all.png)
+
+### Stability of SGDA on GAN training
+
+![gan](gan/res/cgan_bce_mnist_fro.png)
 
 
 ### Future Work
