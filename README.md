@@ -38,7 +38,7 @@ We compute the Euclidean distance, i.e. Frobenius norm, between the parameters t
 
 ### Stability of SGDA on GAN training
 
-![gan](gan/res/cgan_bce_mnist_fro.png)
+![gan](gan/res/vgan_bce_mnist_fro.png)
 
 
 ### Future Work
