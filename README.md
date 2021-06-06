@@ -37,10 +37,6 @@ We compute the Euclidean distance, i.e. Frobenius norm, between the parameters t
 ![mnist_cpu](res/mnist_cuda.png)
 
 
-### Difference vs GAN training
-- Finite sample for random noise
-- Synchronous noise for updating D and G
-
 ### Future Work
 - Different datasets e.g. `cifar10`, `TFD`
 - Convolutional GAN structure e.g. DCGAN
