@@ -2,7 +2,7 @@
 
 Welcome to the repository of minimax-stability! This repository is only for reproducing all experimental results shown in our paper:
 
-*Stability and Generalization of Stochastic Gradient Methods for Minimax Problems*. Yunwen Lei\*, Zhenhuan Yang\*, Tianbao Yang, Yiming Ying.
+[*Stability and Generalization of Stochastic Gradient Methods for Minimax Problems*.](https://arxiv.org/abs/2105.03793) Yunwen Lei\*, Zhenhuan Yang\*, Tianbao Yang, Yiming Ying. ICML 2021. (\* Equal Contribution)
 
 ### GAN Struction
 We consider the vanilla GAN structure in Goodfellow et al. (2014).
