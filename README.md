@@ -4,6 +4,30 @@ Welcome to the repository of minimax-stability! This repository is only for repr
 
 [*Stability and Generalization of Stochastic Gradient Methods for Minimax Problems*.](https://arxiv.org/abs/2105.03793) Yunwen Lei\*, Zhenhuan Yang\*, Tianbao Yang, Yiming Ying. ICML 2021. (\* Equal Contribution)
 
+### Requirement
+
+```
+python=3.6
+numpy=1.19.2
+sicit-learn=0.24.1
+scipy=1.5.4
+pytorch=1.7.1
+torchvision=0.8.2
+tqdm=4.59.0
+pillow=8.1.2
+```
+
+### Citation
+If you find this repository useful, please cite our work
+```
+@article{lei2021stability,
+  title={Stability and Generalization of Stochastic Gradient Methods for Minimax Problems},
+  author={Lei, Yunwen and Yang, Zhenhuan and Yang, Tianbao and Ying, Yiming},
+  journal={arXiv preprint arXiv:2105.03793},
+  year={2021}
+}
+```
+
 ### GAN Struction
 We consider the vanilla GAN structure in Goodfellow et al. (2014).
 We do not use the Dropout layer in the discriminator in order to maintain the original parameters for comparison.
